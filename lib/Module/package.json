@@ -1,0 +1,29 @@
+// 相同名称的文件声明，只有第一个文件声明有效
+{
+	"name": "Common",
+	"main": "./common.js"
+}, {
+	"name": "Sample",
+	"main": "./sample.js"
+}, {
+	"name": "Http",
+	"main": "./http.js"
+}, {
+	"name": "StringBuffer",
+	"main": "./stringBuffer.js"
+}, {
+	"name": "EventEmitter",
+	"main": "./eventEmitter.js"
+}, {
+	"name": "Timer",
+	"main": "./timer.js"
+}, {
+	"name": "File",
+	"main": "./file.js"
+}, {
+	"name": "ChildProcess",
+	"main": "./childProcess.js"
+}, {
+	"name": "Stream",
+	"main": "./stream.js"
+}

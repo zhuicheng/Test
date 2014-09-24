@@ -1,0 +1,8 @@
+// 相同名称的文件声明，只有第一个文件声明有效
+{
+	"name": "HttpServer",
+	"main": "./httpServer.js"
+}, {
+	"name": "ChildPrint",
+	"main": "./childPrint.js"
+}
