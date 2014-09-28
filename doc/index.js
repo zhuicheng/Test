@@ -1,8 +1,8 @@
 console.log("文件正在生成..");
 var fs = require("fs");
 
-fs.unlink("D:/exp.txt", function() {
-	fs.open("D:/exp.txt", "a", function(e, fd) {
+fs.unlink("./exp.log", function() {
+	fs.open("./exp.log", "a", function(e, fd) {
 		if (e) {
 			throw e;
 		}
