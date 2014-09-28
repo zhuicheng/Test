@@ -10,7 +10,7 @@ function Index() {
 		socketServer.start();
 	};
 
-	this.http = function() {
+	var http = function() {
 		var http = require("./lib/Module/Http");
 		for ( var i in http) {
 			eval("http." + i)({
