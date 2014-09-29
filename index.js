@@ -73,7 +73,7 @@ function Index() {
 		}
 	};
 }
-var b = 2;
+
 var index = new Index();
 for ( var i in index) {
 	eval("index." + i)();
