@@ -1,13 +1,12 @@
 console.log("NodeJs正在运行..");
 
 function Index() {
-	this.doc = function() {
+	var doc = function() {
 		require("./doc");
 	};
 
-	var socket = function() {
-		var socketServer = new (require("./lib/Model/socket/SocketServer"))();
-		socketServer.start();
+	this.socket = function() {
+		require("./lib/core/socket/SocketServer");
 	};
 
 	var http = function() {

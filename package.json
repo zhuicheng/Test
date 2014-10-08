@@ -7,7 +7,10 @@
 		"test" : "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies" : {
-		"optimist" : "*"
+		"optimist" : "0.6.1",
+		"socket.io" : "1.1.0",
+		"node-static" : "0.7.6",
+		"connect" : "1.9.2"
 	},
 	"author" : "MaXiao",
 	"license" : "ISC"
