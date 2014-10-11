@@ -1,11 +1,19 @@
 console.log("NodeJs正在运行..");
 
 function Index() {
+	this.chpt03 = function() {
+		require('./lib/Chpt/Chpt03_Module');
+	};
+
+	this.chpt04 = function() {
+		require('./lib/Chpt/Chpt04_Buffer');
+	};
+
 	var doc = function() {
 		require("./doc");
 	};
 
-	this.socket = function() {
+	var socket = function() {
 		require("./lib/core/socket/SocketServer");
 	};
 
