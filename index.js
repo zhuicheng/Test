@@ -9,6 +9,10 @@ function Index() {
 		require('./lib/Chpt/Chpt04_Buffer');
 	};
 
+	this.chpt05 = function() {
+		require('./lib/Chpt/Chpt05_EventEmitter');
+	};
+
 	var doc = function() {
 		require("./doc");
 	};
