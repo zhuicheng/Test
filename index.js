@@ -13,6 +13,10 @@ function Index() {
 		require('./lib/Chpt/Chpt05_EventEmitter');
 	};
 
+	this.chpt06 = function() {
+		require('./lib/Chpt/Chpt06_Timer');
+	};
+
 	var doc = function() {
 		require("./doc");
 	};
