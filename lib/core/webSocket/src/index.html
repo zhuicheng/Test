@@ -33,6 +33,12 @@
 				$('div').append('连接关闭..<br/>');
 			});
 		});
+
+		setTimeout(function() {
+			$.post('http://localhost:8888/a', function(data) {
+				console.log(data);
+			});
+		}, 3000);
 	});
 </script>
 
